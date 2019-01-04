@@ -5,7 +5,7 @@ import pymysql
 
 MYSQL_DB = 'douban'
 MYSQL_USER = 'root'
-MYSQL_PASS = 'HardM0de'
+MYSQL_PASS = 'mysql'
 MYSQL_HOST = 'db'
 
 connection = pymysql.connect(host=MYSQL_HOST, user=MYSQL_USER,
